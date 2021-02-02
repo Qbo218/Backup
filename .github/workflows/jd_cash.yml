@@ -50,4 +50,3 @@ jobs:
                   SYNCURL: jd_cash.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-
